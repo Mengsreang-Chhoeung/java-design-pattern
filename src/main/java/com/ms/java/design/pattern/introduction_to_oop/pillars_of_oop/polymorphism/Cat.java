@@ -1,4 +1,4 @@
-package com.ms.java.design.pattern.introduction_to_oop.pillars_of_oop.inheritance.polymorphism;
+package com.ms.java.design.pattern.introduction_to_oop.pillars_of_oop.polymorphism;
 
 public class Cat extends Animal {
     // Method
