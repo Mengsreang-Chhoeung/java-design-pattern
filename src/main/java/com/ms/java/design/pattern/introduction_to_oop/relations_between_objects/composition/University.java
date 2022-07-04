@@ -13,10 +13,19 @@ public class University {
         this.departments = _departments;
     }
     
+    // Getters
+    public String getName() {
+        return this.name;
+    }
+    
+    public List<Department> getDepartments() {
+        return this.departments;
+    }
+    
     // Method
     public void getUniversityInfo() {
-        System.out.println("Universirty name: " + this.name + " and have " + this.departments.size() + " departments.");
-        System.out.println("Therer are: ");
+        System.out.println("Universirty name: " + this.getName() + " and have " + this.getDepartments().size() + " departments.");
+        System.out.println("There are: ");
         for (Department department : this.departments) {
             System.out.println("ID: " + department.getId() + " Name: " + department.getName());
         }
